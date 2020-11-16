@@ -23,7 +23,12 @@ $(document).ready(function () {
          addImageToDiv("#while-loop");
         */
 
-
+        var whileLoop = 0;
+        while (whileLoop <= (num + 1))
+        {
+            addImageToDiv("#while-loop");
+            whileLoop++
+        }
 
 
 
@@ -34,6 +39,13 @@ $(document).ready(function () {
          addImageToDiv("#do-while-loop");
         */
 
+        var doWhileLoop = 0;
+        do
+        {
+            addImageToDiv("#do-while-loop");
+            doWhileLoop++;
+        }
+        while (doWhileLoop < (num - 1));
 
 
 
@@ -45,7 +57,10 @@ $(document).ready(function () {
          addImageToDiv("#for-loop");
         */
 
-
+        for(i = 0; i < num; i++)
+        {
+            addImageToDiv("#for-loop");
+        };
 
 
 
